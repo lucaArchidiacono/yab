@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C51B06ADF40AF6B34FF6BF7 /* TuistAssets+Yab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */; };
+		F3924508881C970EB2F251BA /* TuistBundle+Yab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B70625F2B067D23338C04CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DC6400208C07426F873246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7470EDE9160ED060ADD608D1;
+			remoteInfo = yab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D26FFC5F4F39331CBC36C77E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D57DD15446F35A91B97640 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09423DCBA83C0725A39E8A0C /* yabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Yab.swift"; sourceTree = "<group>"; };
+		6BD7385D3E1B6CA01545524C /* yab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D882F53BA42CB5338DA5273 /* yabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "yabTests-Info.plist"; sourceTree = "<group>"; };
+		A5E438CF61F22616926689F5 /* yab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "yab-Info.plist"; sourceTree = "<group>"; };
+		FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Yab.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9B6ECA6BB8BA17D3F591978C /* Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Tests; sourceTree = "<group>"; };
+		AB7609F4281416E15F60A19A /* Sources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources; sourceTree = "<group>"; };
+		AEDB8B5D611DFC2A17DE9DF4 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E6C4624C3AA8BADC5B6DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA25471B806EF1A37AB8554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2B087737C07ECCB06A0ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7385D3E1B6CA01545524C /* yab.app */,
+				09423DCBA83C0725A39E8A0C /* yabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688C25044A4A75EEBE66E0A3 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				953C652CF7FA5C50ACD78046 /* Derived */,
+				EE37E5E97050C1B8E36052A8 /* yab */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		8B89C45E7FD8EFD51364DE14 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				A5E438CF61F22616926689F5 /* yab-Info.plist */,
+				9D882F53BA42CB5338DA5273 /* yabTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		953C652CF7FA5C50ACD78046 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				8B89C45E7FD8EFD51364DE14 /* InfoPlists */,
+				D8DD83B508C4C1D8588DC3C2 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		9DBE68C7E0BDB37105AE42BC = {
+			isa = PBXGroup;
+			children = (
+				4D2B087737C07ECCB06A0ACC /* Products */,
+				688C25044A4A75EEBE66E0A3 /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DD83B508C4C1D8588DC3C2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */,
+				FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EE37E5E97050C1B8E36052A8 /* yab */ = {
+			isa = PBXGroup;
+			children = (
+				AEDB8B5D611DFC2A17DE9DF4 /* Resources */,
+				AB7609F4281416E15F60A19A /* Sources */,
+				9B6ECA6BB8BA17D3F591978C /* Tests */,
+			);
+			path = yab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547B5C8681D4CFEBE65C7CBF /* yabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FC27B90EC336C121DE99F0 /* Build configuration list for PBXNativeTarget "yabTests" */;
+			buildPhases = (
+				822067C24A1C56ABD6923E71 /* Sources */,
+				ECFDF54CBD955E1103854AC7 /* Resources */,
+				48E6C4624C3AA8BADC5B6DDB /* Frameworks */,
+				D26FFC5F4F39331CBC36C77E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8010503007FAEAA4C27BA95F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9B6ECA6BB8BA17D3F591978C /* Tests */,
+			);
+			name = yabTests;
+			packageProductDependencies = (
+			);
+			productName = yabTests;
+			productReference = 09423DCBA83C0725A39E8A0C /* yabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7470EDE9160ED060ADD608D1 /* yab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A918CC0213601CA605B26A /* Build configuration list for PBXNativeTarget "yab" */;
+			buildPhases = (
+				D4263AD962CBA9A6E1EBFB68 /* Sources */,
+				54A7F901461CEA1164815970 /* Resources */,
+				4CA25471B806EF1A37AB8554 /* Frameworks */,
+				F5D57DD15446F35A91B97640 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB7609F4281416E15F60A19A /* Sources */,
+				AEDB8B5D611DFC2A17DE9DF4 /* Resources */,
+			);
+			name = yab;
+			packageProductDependencies = (
+			);
+			productName = yab;
+			productReference = 6BD7385D3E1B6CA01545524C /* yab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6DC6400208C07426F873246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					547B5C8681D4CFEBE65C7CBF = {
+						TestTargetID = 7470EDE9160ED060ADD608D1;
+					};
+				};
+			};
+			buildConfigurationList = 7FBF902A46DDE56894F6F7AA /* Build configuration list for PBXProject "yab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9DBE68C7E0BDB37105AE42BC;
+			productRefGroup = 4D2B087737C07ECCB06A0ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7470EDE9160ED060ADD608D1 /* yab */,
+				547B5C8681D4CFEBE65C7CBF /* yabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A7F901461CEA1164815970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDF54CBD955E1103854AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822067C24A1C56ABD6923E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4263AD962CBA9A6E1EBFB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C51B06ADF40AF6B34FF6BF7 /* TuistAssets+Yab.swift in Sources */,
+				F3924508881C970EB2F251BA /* TuistBundle+Yab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8010503007FAEAA4C27BA95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = yab;
+			target = 7470EDE9160ED060ADD608D1 /* yab */;
+			targetProxy = B70625F2B067D23338C04CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F369114D7887181D51FAC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/yabTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
+				PRODUCT_NAME = yabTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yab";
+				TEST_TARGET_NAME = yab;
+			};
+			name = Release;
+		};
+		42F0EFE4A554CE69E200B2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27QQ4H5V76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/yab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yab;
+				PRODUCT_NAME = yab;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C4A3214F0270F6F852B3D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1276A9FF7D3D2988A01F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/yabTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
+				PRODUCT_NAME = yabTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yab";
+				TEST_TARGET_NAME = yab;
+			};
+			name = Debug;
+		};
+		741CA753EA2518012D075085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FAED236696658121D2E5733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27QQ4H5V76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/yab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yab;
+				PRODUCT_NAME = yab;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FC27B90EC336C121DE99F0 /* Build configuration list for PBXNativeTarget "yabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1276A9FF7D3D2988A01F70 /* Debug */,
+				0F369114D7887181D51FAC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FBF902A46DDE56894F6F7AA /* Build configuration list for PBXProject "yab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4A3214F0270F6F852B3D7B /* Debug */,
+				741CA753EA2518012D075085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A918CC0213601CA605B26A /* Build configuration list for PBXNativeTarget "yab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAED236696658121D2E5733 /* Debug */,
+				42F0EFE4A554CE69E200B2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6DC6400208C07426F873246 /* Project object */;
+}
