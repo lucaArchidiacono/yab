@@ -3,71 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4C51B06ADF40AF6B34FF6BF7 /* TuistAssets+Yab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */; };
-		F3924508881C970EB2F251BA /* TuistBundle+Yab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		B70625F2B067D23338C04CA0 /* PBXContainerItemProxy */ = {
+		12C475C948CC237571BEB6C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6DC6400208C07426F873246 /* Project object */;
+			containerPortal = 6C0CC9DBC7ADE22F8EC6EC6C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7470EDE9160ED060ADD608D1;
+			remoteGlobalIDString = 9FFB873CF30BB45F4C1A2F75;
 			remoteInfo = yab;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D26FFC5F4F39331CBC36C77E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D57DD15446F35A91B97640 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		09423DCBA83C0725A39E8A0C /* yabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Yab.swift"; sourceTree = "<group>"; };
-		6BD7385D3E1B6CA01545524C /* yab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D882F53BA42CB5338DA5273 /* yabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "yabTests-Info.plist"; sourceTree = "<group>"; };
-		A5E438CF61F22616926689F5 /* yab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "yab-Info.plist"; sourceTree = "<group>"; };
-		FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Yab.swift"; sourceTree = "<group>"; };
+		AE698AE836D179E8342476F3 /* yab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271A0EE7CC8831073643EBC /* yabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9B6ECA6BB8BA17D3F591978C /* Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Tests; sourceTree = "<group>"; };
-		AB7609F4281416E15F60A19A /* Sources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources; sourceTree = "<group>"; };
-		AEDB8B5D611DFC2A17DE9DF4 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		96A342EC218338B8705ABCD8 /* yabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = yabTests;
+			sourceTree = "<group>";
+		};
+		C9C3F8B4AF8C15780D3C21BF /* yab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = yab;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48E6C4624C3AA8BADC5B6DDB /* Frameworks */ = {
+		2058151925F0BC1A0D67DBEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CA25471B806EF1A37AB8554 /* Frameworks */ = {
+		86EC619E756E917F71E51F00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,161 +52,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D2B087737C07ECCB06A0ACC /* Products */ = {
+		0F38CAE4F74A343DFA926711 = {
 			isa = PBXGroup;
 			children = (
-				6BD7385D3E1B6CA01545524C /* yab.app */,
-				09423DCBA83C0725A39E8A0C /* yabTests.xctest */,
+				C9C3F8B4AF8C15780D3C21BF /* yab */,
+				96A342EC218338B8705ABCD8 /* yabTests */,
+				5AC8E280A28544CD6AF60386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AC8E280A28544CD6AF60386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE698AE836D179E8342476F3 /* yab.app */,
+				C271A0EE7CC8831073643EBC /* yabTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		688C25044A4A75EEBE66E0A3 /* Project */ = {
-			isa = PBXGroup;
-			children = (
-				953C652CF7FA5C50ACD78046 /* Derived */,
-				EE37E5E97050C1B8E36052A8 /* yab */,
-			);
-			name = Project;
-			sourceTree = "<group>";
-		};
-		8B89C45E7FD8EFD51364DE14 /* InfoPlists */ = {
-			isa = PBXGroup;
-			children = (
-				A5E438CF61F22616926689F5 /* yab-Info.plist */,
-				9D882F53BA42CB5338DA5273 /* yabTests-Info.plist */,
-			);
-			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		953C652CF7FA5C50ACD78046 /* Derived */ = {
-			isa = PBXGroup;
-			children = (
-				8B89C45E7FD8EFD51364DE14 /* InfoPlists */,
-				D8DD83B508C4C1D8588DC3C2 /* Sources */,
-			);
-			path = Derived;
-			sourceTree = "<group>";
-		};
-		9DBE68C7E0BDB37105AE42BC = {
-			isa = PBXGroup;
-			children = (
-				4D2B087737C07ECCB06A0ACC /* Products */,
-				688C25044A4A75EEBE66E0A3 /* Project */,
-			);
-			sourceTree = "<group>";
-		};
-		D8DD83B508C4C1D8588DC3C2 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				638DA9E28D00C180F4EFC997 /* TuistAssets+Yab.swift */,
-				FB740F97C878BA1FCF95F4F1 /* TuistBundle+Yab.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		EE37E5E97050C1B8E36052A8 /* yab */ = {
-			isa = PBXGroup;
-			children = (
-				AEDB8B5D611DFC2A17DE9DF4 /* Resources */,
-				AB7609F4281416E15F60A19A /* Sources */,
-				9B6ECA6BB8BA17D3F591978C /* Tests */,
-			);
-			path = yab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		547B5C8681D4CFEBE65C7CBF /* yabTests */ = {
+		3284AB38C4CC4193FB9E7424 /* yabTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13FC27B90EC336C121DE99F0 /* Build configuration list for PBXNativeTarget "yabTests" */;
+			buildConfigurationList = 57125AA5AE85B3F84B7DBE82 /* Build configuration list for PBXNativeTarget "yabTests" */;
 			buildPhases = (
-				822067C24A1C56ABD6923E71 /* Sources */,
-				ECFDF54CBD955E1103854AC7 /* Resources */,
-				48E6C4624C3AA8BADC5B6DDB /* Frameworks */,
-				D26FFC5F4F39331CBC36C77E /* Embed Frameworks */,
+				F73962A699732F10F60E04A8 /* Sources */,
+				2058151925F0BC1A0D67DBEB /* Frameworks */,
+				808015E712CBEC06171FA885 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8010503007FAEAA4C27BA95F /* PBXTargetDependency */,
+				022E4FC3DBE8FDB4DF1999BC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9B6ECA6BB8BA17D3F591978C /* Tests */,
+				96A342EC218338B8705ABCD8 /* yabTests */,
 			);
 			name = yabTests;
 			packageProductDependencies = (
 			);
 			productName = yabTests;
-			productReference = 09423DCBA83C0725A39E8A0C /* yabTests.xctest */;
+			productReference = C271A0EE7CC8831073643EBC /* yabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7470EDE9160ED060ADD608D1 /* yab */ = {
+		9FFB873CF30BB45F4C1A2F75 /* yab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1A918CC0213601CA605B26A /* Build configuration list for PBXNativeTarget "yab" */;
+			buildConfigurationList = 06AB91145547C14FB6A36F09 /* Build configuration list for PBXNativeTarget "yab" */;
 			buildPhases = (
-				D4263AD962CBA9A6E1EBFB68 /* Sources */,
-				54A7F901461CEA1164815970 /* Resources */,
-				4CA25471B806EF1A37AB8554 /* Frameworks */,
-				F5D57DD15446F35A91B97640 /* Embed Frameworks */,
+				05E5E02EDEB46935C3AEF6EF /* Sources */,
+				86EC619E756E917F71E51F00 /* Frameworks */,
+				0D4396EF39242044AAC540FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AB7609F4281416E15F60A19A /* Sources */,
-				AEDB8B5D611DFC2A17DE9DF4 /* Resources */,
+				C9C3F8B4AF8C15780D3C21BF /* yab */,
 			);
 			name = yab;
 			packageProductDependencies = (
 			);
 			productName = yab;
-			productReference = 6BD7385D3E1B6CA01545524C /* yab.app */;
+			productReference = AE698AE836D179E8342476F3 /* yab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C6DC6400208C07426F873246 /* Project object */ = {
+		6C0CC9DBC7ADE22F8EC6EC6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
 				TargetAttributes = {
-					547B5C8681D4CFEBE65C7CBF = {
-						TestTargetID = 7470EDE9160ED060ADD608D1;
+					3284AB38C4CC4193FB9E7424 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 9FFB873CF30BB45F4C1A2F75;
+					};
+					9FFB873CF30BB45F4C1A2F75 = {
+						CreatedOnToolsVersion = 27.2;
 					};
 				};
 			};
-			buildConfigurationList = 7FBF902A46DDE56894F6F7AA /* Build configuration list for PBXProject "yab" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = C333BCB5EEEEE593DB3160FF /* Build configuration list for PBXProject "yab" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				Base,
 			);
-			mainGroup = 9DBE68C7E0BDB37105AE42BC;
-			productRefGroup = 4D2B087737C07ECCB06A0ACC /* Products */;
+			mainGroup = 0F38CAE4F74A343DFA926711;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5AC8E280A28544CD6AF60386 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7470EDE9160ED060ADD608D1 /* yab */,
-				547B5C8681D4CFEBE65C7CBF /* yabTests */,
+				9FFB873CF30BB45F4C1A2F75 /* yab */,
+				3284AB38C4CC4193FB9E7424 /* yabTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54A7F901461CEA1164815970 /* Resources */ = {
+		0D4396EF39242044AAC540FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECFDF54CBD955E1103854AC7 /* Resources */ = {
+		808015E712CBEC06171FA885 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,96 +175,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		822067C24A1C56ABD6923E71 /* Sources */ = {
+		05E5E02EDEB46935C3AEF6EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4263AD962CBA9A6E1EBFB68 /* Sources */ = {
+		F73962A699732F10F60E04A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C51B06ADF40AF6B34FF6BF7 /* TuistAssets+Yab.swift in Sources */,
-				F3924508881C970EB2F251BA /* TuistBundle+Yab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8010503007FAEAA4C27BA95F /* PBXTargetDependency */ = {
+		022E4FC3DBE8FDB4DF1999BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = yab;
-			target = 7470EDE9160ED060ADD608D1 /* yab */;
-			targetProxy = B70625F2B067D23338C04CA0 /* PBXContainerItemProxy */;
+			target = 9FFB873CF30BB45F4C1A2F75 /* yab */;
+			targetProxy = 12C475C948CC237571BEB6C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F369114D7887181D51FAC54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/yabTests-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
-				PRODUCT_NAME = yabTests;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yab";
-				TEST_TARGET_NAME = yab;
-			};
-			name = Release;
-		};
-		42F0EFE4A554CE69E200B2E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 27QQ4H5V76;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/yab-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yab;
-				PRODUCT_NAME = yab;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4C4A3214F0270F6F852B3D7B /* Debug */ = {
+		0CFD7BC475BE66FD2D87C726 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -357,11 +234,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -375,48 +252,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		4F1276A9FF7D3D2988A01F70 /* Debug */ = {
+		4C66C167D902BEEFC90C710B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Derived/InfoPlists/yabTests-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/yab-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = yab;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID keeps your hacker mode tabs private.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
-				PRODUCT_NAME = yabTests;
-				SDKROOT = iphoneos;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6D5E9CEB7F1123B0AF614293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yab";
-				TEST_TARGET_NAME = yab;
 			};
 			name = Debug;
 		};
-		741CA753EA2518012D075085 /* Release */ = {
+		AEB8E28816AA7B482BB63030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -443,11 +355,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -455,71 +367,105 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9FAED236696658121D2E5733 /* Debug */ = {
+		DBB8C4F68E0523EBC36C479E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yab";
+			};
+			name = Release;
+		};
+		EDDF8B34CFEB09E5FC44571E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 27QQ4H5V76;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/yab-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/yab-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = yab;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID keeps your hacker mode tabs private.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.archiluc.yab;
-				PRODUCT_NAME = yab;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13FC27B90EC336C121DE99F0 /* Build configuration list for PBXNativeTarget "yabTests" */ = {
+		06AB91145547C14FB6A36F09 /* Build configuration list for PBXNativeTarget "yab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F1276A9FF7D3D2988A01F70 /* Debug */,
-				0F369114D7887181D51FAC54 /* Release */,
+				EDDF8B34CFEB09E5FC44571E /* Debug */,
+				4C66C167D902BEEFC90C710B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FBF902A46DDE56894F6F7AA /* Build configuration list for PBXProject "yab" */ = {
+		57125AA5AE85B3F84B7DBE82 /* Build configuration list for PBXNativeTarget "yabTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C4A3214F0270F6F852B3D7B /* Debug */,
-				741CA753EA2518012D075085 /* Release */,
+				6D5E9CEB7F1123B0AF614293 /* Debug */,
+				DBB8C4F68E0523EBC36C479E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1A918CC0213601CA605B26A /* Build configuration list for PBXNativeTarget "yab" */ = {
+		C333BCB5EEEEE593DB3160FF /* Build configuration list for PBXProject "yab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FAED236696658121D2E5733 /* Debug */,
-				42F0EFE4A554CE69E200B2E3 /* Release */,
+				0CFD7BC475BE66FD2D87C726 /* Debug */,
+				AEB8E28816AA7B482BB63030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C6DC6400208C07426F873246 /* Project object */;
+	rootObject = 6C0CC9DBC7ADE22F8EC6EC6C /* Project object */;
 }

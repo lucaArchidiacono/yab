@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
-   version = "1.3">
+   LastUpgradeVersion = "2720"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7470EDE9160ED060ADD608D1"
+               BlueprintIdentifier = "9FFB873CF30BB45F4C1A2F75"
                BuildableName = "yab.app"
                BlueprintName = "yab"
                ReferencedContainer = "container:yab.xcodeproj">
@@ -26,14 +27,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
       <Testables>
          <TestableReference
             skipped = "NO"
-            parallelizable = "NO">
+            parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "547B5C8681D4CFEBE65C7CBF"
+               BlueprintIdentifier = "3284AB38C4CC4193FB9E7424"
                BuildableName = "yabTests.xctest"
                BlueprintName = "yabTests"
                ReferencedContainer = "container:yab.xcodeproj">
@@ -55,7 +57,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7470EDE9160ED060ADD608D1"
+            BlueprintIdentifier = "9FFB873CF30BB45F4C1A2F75"
             BuildableName = "yab.app"
             BlueprintName = "yab"
             ReferencedContainer = "container:yab.xcodeproj">
@@ -72,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7470EDE9160ED060ADD608D1"
+            BlueprintIdentifier = "9FFB873CF30BB45F4C1A2F75"
             BuildableName = "yab.app"
             BlueprintName = "yab"
             ReferencedContainer = "container:yab.xcodeproj">
